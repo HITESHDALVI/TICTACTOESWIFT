@@ -14,6 +14,7 @@
 		80222D5A2BEA5754000C8B06 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80222D592BEA5754000C8B06 /* TicTacToeTests.swift */; };
 		80222D642BEA5754000C8B06 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80222D632BEA5754000C8B06 /* TicTacToeUITests.swift */; };
 		80222D662BEA5754000C8B06 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80222D652BEA5754000C8B06 /* TicTacToeUITestsLaunchTests.swift */; };
+		80222D732BEA58AA000C8B06 /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80222D722BEA58AA000C8B06 /* XOButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		80222D5F2BEA5754000C8B06 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80222D632BEA5754000C8B06 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		80222D652BEA5754000C8B06 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80222D722BEA58AA000C8B06 /* XOButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				80222D482BEA5752000C8B06 /* TicTacToeApp.swift */,
 				80222D4A2BEA5752000C8B06 /* ContentView.swift */,
+				80222D722BEA58AA000C8B06 /* XOButton.swift */,
 				80222D4C2BEA5754000C8B06 /* Assets.xcassets */,
 				80222D4E2BEA5754000C8B06 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				80222D4B2BEA5752000C8B06 /* ContentView.swift in Sources */,
 				80222D492BEA5752000C8B06 /* TicTacToeApp.swift in Sources */,
+				80222D732BEA58AA000C8B06 /* XOButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicTacToe/Preview Content\"";
+				DEVELOPMENT_TEAM = S5HTDLZ5B4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicTacToe/Preview Content\"";
+				DEVELOPMENT_TEAM = S5HTDLZ5B4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
